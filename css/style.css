@@ -96,7 +96,7 @@ body, select, input, textarea {
     /* #444 looks better than black: twitter.com/H_FJ/statuses/11800719859 */
     color: #444;
     /* set your base font here, to apply evenly */
-    /* font-family: Georgia, serif;  */
+    font-family: Futura, sans-serif;
 }
 
 /* Headers (h1,h2,etc) have no default font-size or margin,
@@ -237,11 +237,27 @@ button {
 
 
 
- /* Primary Styles
-    Author:
- */
+/* Primary Styles
+    Author: Daniel Stockman
+*/
 
-
+h1, h2 {
+    text-align: center;
+    font-size: 8em;
+    margin: 2em 0;
+}
+h1 {
+    margin: 1em 0;
+}
+h2 {
+    font-size: 4em;
+}
+footer h2 {
+    font-size: 2em;
+}
+h2 a {
+    text-decoration: none;
+}
 
 
 
